@@ -21,3 +21,33 @@ h1 {
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .heroes {
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+
+  }
+  .selected-hero {
+    background-color: rgb(233, 222, 222);
+    border: 10px dotted rgb(202, 20, 29);
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+  }
+  .selected-hero span {
+    text-align: left;
+  }
+
+  
+
+  .badge {
+    border: 2px solid gold;
+    border-radius: 50%;
+    justify-content: left;
+    text-decoration: underlinnone;
+
+  }
