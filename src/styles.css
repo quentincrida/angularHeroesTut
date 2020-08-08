@@ -23,6 +23,9 @@ h1 {
   }
 
   .heroes {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(221, 243, 220);
     width: 250px;
     border: 3px solid black;
     border-radius: 5px;
@@ -31,8 +34,9 @@ h1 {
 
   }
   .selected-hero {
+    font-weight: bold;
     background-color: rgb(233, 222, 222);
-    border: 10px dotted rgb(202, 20, 29);
+    border: 10px double gold;
     border-radius: 20px;
     width: 250px;
     height: 150px;
@@ -40,6 +44,9 @@ h1 {
   }
   .selected-hero span {
     text-align: left;
+  }
+  .selected {
+    color: red;
   }
 
   
